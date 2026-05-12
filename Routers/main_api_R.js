@@ -12,3 +12,6 @@ router.use('/US', [], users_R);
 
 const veterinarians_R = require('./veterinarians_R');
 router.use('/VT', [], veterinarians_R);
+
+const animals_R = require('./animals_R');
+router.use('/AN', [], animals_R);
