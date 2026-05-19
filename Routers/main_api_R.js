@@ -18,6 +18,8 @@ router.use('/AN', [], animals_R);
 const visits_R = require('./visits_R');
 router.use('/VI', [], visits_R);
 
+const vaccines_R = require('./vaccines_R');
+router.use('/VA', [], vaccines_R);
 
 
 
